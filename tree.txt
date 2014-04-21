@@ -1,0 +1,1151 @@
+.
+├── bin
+│   ├── adb
+│   ├── am
+│   ├── amixer
+│   ├── androidvncserver
+│   ├── aplay
+│   ├── appCoda7542Dec
+│   ├── appCoda7542Enc
+│   ├── applypatch
+│   ├── app_process
+│   ├── atcmdsrv
+│   ├── atrace
+│   ├── backup_log.sh
+│   ├── bluetoothd
+│   ├── bmgr
+│   ├── bootanimation
+│   ├── bu
+│   ├── bugreport
+│   ├── close_aud_path_fm.sh
+│   ├── close_aud_path_hifi_headset.sh
+│   ├── connfwexe
+│   ├── content
+│   ├── cploader
+│   ├── dalvikvm
+│   ├── dbus-daemon
+│   ├── ddexe
+│   ├── debuggerd
+│   ├── dexopt
+│   ├── dhcpcd
+│   ├── diag
+│   ├── diag_thp_test
+│   ├── diag_usb_test
+│   ├── dnsmasq
+│   ├── drmserver
+│   ├── dttexe
+│   ├── dumpstate
+│   ├── dumpsys
+│   ├── dvfm_control.sh
+│   ├── e2fsck
+│   ├── eeh
+│   ├── emmc_fsck
+│   ├── exit_composite.sh
+│   ├── FileMonitorService
+│   ├── FMRadioServer
+│   ├── fsck.exfat
+│   ├── fsck_msdos
+│   ├── gzip
+│   ├── hciattach
+│   ├── hostapd
+│   ├── hwacc
+│   ├── hw.sh
+│   ├── i2cdetect
+│   ├── i2cdump
+│   ├── i2cget
+│   ├── i2cset
+│   ├── ime
+│   ├── input
+│   ├── installd
+│   ├── ip
+│   ├── ip6tables
+│   ├── iptables
+│   ├── keystore
+│   ├── kiesexe
+│   ├── linker
+│   ├── load_mfg_8787.sh
+│   ├── load_prod_8787.sh
+│   ├── logcat
+│   ├── logwrapper
+│   ├── lpmkey
+│   ├── macloader
+│   ├── make_ext4fs
+│   ├── MarvellWirelessDaemon
+│   ├── mdnsd
+│   ├── mediaserver
+│   ├── mfgloader
+│   ├── mkfs.exfat
+│   ├── mksh
+│   ├── mlanutl
+│   ├── monkey
+│   ├── mrvl_dut
+│   ├── msocket_testport
+│   ├── mtpd
+│   ├── ndc
+│   ├── netcfg
+│   ├── netd
+│   ├── npsmobex
+│   ├── nvm
+│   ├── open_aud_path_fm_headset.sh
+│   ├── open_aud_path_fm_speaker.sh
+│   ├── open_aud_path_hifi_headset.sh
+│   ├── p2p_supplicant
+│   ├── pand
+│   ├── ping
+│   ├── playlpm
+│   ├── pm
+│   ├── powerdaemon
+│   ├── poweroff_charging_power_save.sh
+│   ├── ppd_cmd
+│   ├── pppd
+│   ├── racoon
+│   ├── rem.sh
+│   ├── requestsync
+│   ├── rfkill
+│   ├── rild
+│   ├── robust_btc.conf
+│   ├── run-as
+│   ├── run_composite.sh
+│   ├── samsungpowersoundplay
+│   ├── schedtest
+│   ├── screencap
+│   ├── screenshot
+│   ├── sdcard
+│   ├── sdptool
+│   ├── sensord
+│   ├── sensorservice
+│   ├── serial_cfun0
+│   ├── serial_client
+│   ├── serial_client_test
+│   ├── service
+│   ├── servicemanager
+│   ├── setup_fs
+│   ├── simal
+│   ├── smdexe
+│   ├── surfaceflinger
+│   ├── svc
+│   ├── system_server
+│   ├── tc
+│   ├── tel_launch_no_gui.sh
+│   ├── tel_launch.sh
+│   ├── telmon
+│   ├── toolbox
+│   ├── uiautomator
+│   ├── unload_8787.sh
+│   ├── usr_path_ctrl
+│   ├── vcm
+│   ├── vdc
+│   ├── vold
+│   ├── vt_test
+│   ├── wlandutservice
+│   └── wpa_supplicant
+├── build.prop
+├── cameradata
+│   ├── datapattern_420sp.yuv
+│   └── datapattern_front_420sp.yuv
+├── etc
+│   ├── AGPS_CA.pem
+│   ├── ams_list.xml
+│   ├── apns-conf.xml
+│   ├── asound.conf
+│   ├── audio
+│   │   ├── LVVEFS_Rx_Configuration.txt
+│   │   ├── LVVEFS_Tx_Configuration.txt
+│   │   ├── Rx_ControlParams_BLUETOOTH_HEADSET.txt
+│   │   ├── Rx_ControlParams_EARPIECE_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_SECVOIP_BLUETOOTH_HEADSET.txt
+│   │   ├── Rx_ControlParams_SECVOIP_EARPIECE_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_SECVOIP_SPEAKER_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_SECVOIP_WIRED_HEADPHONE_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_SECVOIP_WIRED_HEADSET_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_SPEAKER_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_WIRED_HEADSET_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_BLUETOOTH_HEADSET.txt
+│   │   ├── Tx_ControlParams_EARPIECE_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_SECVOIP_BLUETOOTH_HEADSET.txt
+│   │   ├── Tx_ControlParams_SECVOIP_EARPIECE_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_SECVOIP_SPEAKER_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_SECVOIP_WIRED_HEADPHONE_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_SECVOIP_WIRED_HEADSET_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_SPEAKER_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_WIRED_HEADPHONE_WIDEBAND.txt
+│   │   └── Tx_ControlParams_WIRED_HEADSET_WIDEBAND.txt
+│   ├── audio_basic_element.xml
+│   ├── audio_coeff_config.xml
+│   ├── audio_effect_config.xml
+│   ├── audio_effects.conf
+│   ├── audio_gain_config.xml
+│   ├── audio_path_config.xml
+│   ├── audio_swvol_calibration_def.xml
+│   ├── audio_swvol_config.xml
+│   ├── audio_swvol_element.xml
+│   ├── audio_VR
+│   │   ├── LVVEFS_Rx_Configuration.txt
+│   │   ├── LVVEFS_Tx_Configuration.txt
+│   │   ├── Rx_ControlParams_VR_BLUETOOTH_HEADSET.txt
+│   │   ├── Rx_ControlParams_VR_EARPIECE_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_VR_SPEAKER_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt
+│   │   ├── Rx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_VR_BLUETOOTH_HEADSET.txt
+│   │   ├── Tx_ControlParams_VR_EARPIECE_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_VR_SPEAKER_WIDEBAND.txt
+│   │   ├── Tx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt
+│   │   └── Tx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt
+│   ├── bluetooth
+│   │   ├── audio.conf
+│   │   ├── auto_pairing.conf
+│   │   ├── blacklist.conf
+│   │   ├── input.conf
+│   │   ├── main.conf
+│   │   └── network.conf
+│   ├── camera_profiles.xml
+│   ├── camera_profiles.xml_for5640
+│   ├── dbus.conf
+│   ├── dhcpcd
+│   │   ├── dhcpcd.conf
+│   │   ├── dhcpcd-hooks
+│   │   │   ├── 20-dns.conf
+│   │   │   └── 95-configured
+│   │   └── dhcpcd-run-hooks
+│   ├── dms.cfg
+│   ├── event-log-tags
+│   ├── fallback_fonts-ja.xml
+│   ├── fallback_fonts.xml
+│   ├── feature_default.xml
+│   ├── FileMonitorService.conf
+│   ├── firmware
+│   │   └── mrvl
+│   │       ├── reg_alpha2
+│   │       ├── sd8787_uapsta.bin
+│   │       ├── txpwrlimit_cfg.conf
+│   │       ├── w8787_wlan_SDIO_bt_SDIO.bin
+│   │       ├── WlanCalData_ext.conf
+│   │       └── WlanCalData_ext.conf_0
+│   ├── gfx.cfg
+│   ├── gps.conf
+│   ├── hosts
+│   ├── init.goldfish.sh
+│   ├── kies
+│   │   ├── Calendar.xml
+│   │   ├── Contents.xml
+│   │   ├── Device.xml
+│   │   ├── Kies_Default_Feature.xml
+│   │   ├── Memo.xml
+│   │   ├── Message.xml
+│   │   ├── Phonebook_com.android.exchange.xml
+│   │   ├── Phonebook_com.google.xml
+│   │   ├── Phonebook_com.osp.app.signin.xml
+│   │   └── Phonebook.xml
+│   ├── labtool
+│   │   ├── bridge_init.conf
+│   │   ├── FEM_RFMD_5365.ini
+│   │   ├── mfgbridge
+│   │   ├── run_labtool.sh
+│   │   └── SetUp.ini
+│   ├── media_codecs.xml
+│   ├── media_profiles.xml
+│   ├── media_profiles.xml_for5640
+│   ├── mkshrc
+│   ├── mrvl_agps_default.conf
+│   ├── mrvl_gps_platform.conf
+│   ├── NOTICE.html.gz
+│   ├── ov5647_scene_tuning.data
+│   ├── permissions
+│   │   ├── access.control.xml
+│   │   ├── allsharelib_library.xml
+│   │   ├── allshare_library.xml
+│   │   ├── android.hardware.camera.front.xml
+│   │   ├── android.hardware.location.gps.xml
+│   │   ├── android.hardware.sensor.accelerometer.xml
+│   │   ├── android.hardware.sensor.compass.xml
+│   │   ├── android.hardware.sensor.light.xml
+│   │   ├── android.hardware.touchscreen.multitouch.jazzhand.xml
+│   │   ├── android.hardware.usb.accessory.xml
+│   │   ├── com.android.location.provider.xml
+│   │   ├── com.google.android.maps.xml
+│   │   ├── com.google.android.media.effects.xml
+│   │   ├── com.google.widevine.software.drm.xml
+│   │   ├── com.samsung.device.xml
+│   │   ├── com.sec.android.app.minimode.xml
+│   │   ├── com.sec.feature.minimode.xml
+│   │   ├── hw-features.xml
+│   │   ├── kies_feature_library.xml
+│   │   ├── org.simalliance.openmobileapi.xml
+│   │   ├── platform.xml
+│   │   ├── seccamera.xml
+│   │   ├── sec_edm.xml
+│   │   ├── sec_feature.xml
+│   │   ├── sec_hardware_library.xml
+│   │   ├── sec_mdm.xml
+│   │   ├── secmediarecorder.xml
+│   │   ├── sec_platform_library.xml
+│   │   ├── sw-features.xml
+│   │   ├── touchwiz.xml
+│   │   ├── usb_print.xml
+│   │   └── vtmanager_library.xml
+│   ├── powerdaemon.xml
+│   ├── powerdaemon_z3.xml
+│   ├── ppp
+│   │   └── ip-up-vpn
+│   ├── purenandpackages_pref.txt
+│   ├── purenandpackages.txt
+│   ├── pxa_testcfg.ini
+│   ├── rom.bin
+│   ├── security
+│   │   ├── cacerts
+│   │   │   ├── 00673b5b.0
+│   │   │   ├── 03e16f6c.0
+│   │   │   ├── 08aef7bb.0
+│   │   │   ├── 0d188d89.0
+│   │   │   ├── 10531352.0
+│   │   │   ├── 111e6273.0
+│   │   │   ├── 1155c94b.0
+│   │   │   ├── 119afc2e.0
+│   │   │   ├── 11a09b38.0
+│   │   │   ├── 12d55845.0
+│   │   │   ├── 17b51fe6.0
+│   │   │   ├── 1920cacb.0
+│   │   │   ├── 1dac3003.0
+│   │   │   ├── 1dbdda5b.0
+│   │   │   ├── 1dcd6f4c.0
+│   │   │   ├── 1df5ec47.0
+│   │   │   ├── 1e8e7201.0
+│   │   │   ├── 1eb37bdf.0
+│   │   │   ├── 219d9499.0
+│   │   │   ├── 23f4c490.0
+│   │   │   ├── 27af790d.0
+│   │   │   ├── 2afc57aa.0
+│   │   │   ├── 2e8714cb.0
+│   │   │   ├── 2fa87019.0
+│   │   │   ├── 2fb1850a.0
+│   │   │   ├── 33815e15.0
+│   │   │   ├── 343eb6cb.0
+│   │   │   ├── 399e7759.0
+│   │   │   ├── 3a3b02ce.0
+│   │   │   ├── 3ad48a91.0
+│   │   │   ├── 3c58f906.0
+│   │   │   ├── 3c860d51.0
+│   │   │   ├── 3d441de8.0
+│   │   │   ├── 3e7271e8.0
+│   │   │   ├── 418595b9.0
+│   │   │   ├── 455f1b52.0
+│   │   │   ├── 46b2fd3b.0
+│   │   │   ├── 48478734.0
+│   │   │   ├── 4d654d1d.0
+│   │   │   ├── 4e18c148.0
+│   │   │   ├── 4fbd6bfa.0
+│   │   │   ├── 5021a0a2.0
+│   │   │   ├── 5046c355.0
+│   │   │   ├── 524d9b43.0
+│   │   │   ├── 56b8a0b6.0
+│   │   │   ├── 57692373.0
+│   │   │   ├── 58a44af1.0
+│   │   │   ├── 594f1775.0
+│   │   │   ├── 5a3f0ff8.0
+│   │   │   ├── 5a5372fc.0
+│   │   │   ├── 5cf9d536.0
+│   │   │   ├── 5e4e69e7.0
+│   │   │   ├── 60afe812.0
+│   │   │   ├── 635ccfd5.0
+│   │   │   ├── 67495436.0
+│   │   │   ├── 69105f4f.0
+│   │   │   ├── 6adf0799.0
+│   │   │   ├── 6e8bf996.0
+│   │   │   ├── 6fcc125d.0
+│   │   │   ├── 72f369af.0
+│   │   │   ├── 72fa7371.0
+│   │   │   ├── 74c26bd0.0
+│   │   │   ├── 75680d2e.0
+│   │   │   ├── 7651b327.0
+│   │   │   ├── 76579174.0
+│   │   │   ├── 7672ac4b.0
+│   │   │   ├── 7999be0d.0
+│   │   │   ├── 7a481e66.0
+│   │   │   ├── 7a819ef2.0
+│   │   │   ├── 7d3cd826.0
+│   │   │   ├── 7d453d8f.0
+│   │   │   ├── 81b9768f.0
+│   │   │   ├── 8470719d.0
+│   │   │   ├── 84cba82f.0
+│   │   │   ├── 85cde254.0
+│   │   │   ├── 86212b19.0
+│   │   │   ├── 87753b0d.0
+│   │   │   ├── 882de061.0
+│   │   │   ├── 895cad1a.0
+│   │   │   ├── 89c02a45.0
+│   │   │   ├── 8f7b96c4.0
+│   │   │   ├── 9339512a.0
+│   │   │   ├── 95aff9e3.0
+│   │   │   ├── 9685a493.0
+│   │   │   ├── 9772ca32.0
+│   │   │   ├── 9d6523ce.0
+│   │   │   ├── 9dbefe7b.0
+│   │   │   ├── 9f533518.0
+│   │   │   ├── a0bc6fbb.0
+│   │   │   ├── a15b3b6b.0
+│   │   │   ├── a3896b44.0
+│   │   │   ├── a7605362.0
+│   │   │   ├── a7d2cf64.0
+│   │   │   ├── ab5346f4.0
+│   │   │   ├── add67345.0
+│   │   │   ├── aeb67534.0
+│   │   │   ├── b0f3e76e.0
+│   │   │   ├── b7db1890.0
+│   │   │   ├── bc3f2570.0
+│   │   │   ├── bcdd5959.0
+│   │   │   ├── bda4cc84.0
+│   │   │   ├── bdacca6f.0
+│   │   │   ├── bf64f35b.0
+│   │   │   ├── c215bc69.0
+│   │   │   ├── c33a80d4.0
+│   │   │   ├── c3a6a9ad.0
+│   │   │   ├── c527e4ab.0
+│   │   │   ├── c7e2a638.0
+│   │   │   ├── c8763593.0
+│   │   │   ├── ccc52f49.0
+│   │   │   ├── cdaebb72.0
+│   │   │   ├── cf701eeb.0
+│   │   │   ├── d16a5865.0
+│   │   │   ├── d537fba6.0
+│   │   │   ├── d59297b8.0
+│   │   │   ├── d64f06f3.0
+│   │   │   ├── d777342d.0
+│   │   │   ├── d8274e24.0
+│   │   │   ├── dbc54cab.0
+│   │   │   ├── ddc328ff.0
+│   │   │   ├── e48193cf.0
+│   │   │   ├── e60bf0c0.0
+│   │   │   ├── e775ed2d.0
+│   │   │   ├── e7b8d656.0
+│   │   │   ├── e8651083.0
+│   │   │   ├── ea169617.0
+│   │   │   ├── eb375c3e.0
+│   │   │   ├── ed049835.0
+│   │   │   ├── ed524cf5.0
+│   │   │   ├── ee7cd6fb.0
+│   │   │   ├── f4996e82.0
+│   │   │   ├── f58a60fe.0
+│   │   │   ├── f61bff45.0
+│   │   │   ├── f80cc7f6.0
+│   │   │   ├── fac084d7.0
+│   │   │   ├── facacbc6.0
+│   │   │   ├── fb126c6d.0
+│   │   │   ├── fde84897.0
+│   │   │   └── ff783690.0
+│   │   └── otacerts.zip
+│   ├── sensor_config.xml
+│   ├── sirfgps.conf
+│   ├── snsfb.conf
+│   ├── somxreg.conf
+│   ├── system_fonts.xml
+│   ├── tel
+│   │   ├── Boerne_DIAG.mdb.txt
+│   │   ├── diag_bsp.cfg
+│   │   ├── diag_fs.cfg
+│   │   ├── diag_sd.cfg
+│   │   ├── diag_tcp.cfg
+│   │   ├── diag_uart.cfg
+│   │   ├── diag_udp.cfg
+│   │   ├── diag_usb.cfg
+│   │   ├── emei
+│   │   │   ├── COMCfg.csv
+│   │   │   ├── TDRF_Config.nvm
+│   │   │   └── TTPCom_NRAM2_BAND_OPTIONS.GKI
+│   │   ├── kunlun
+│   │   │   ├── COMCfg.csv
+│   │   │   ├── LyraConfig.nvm
+│   │   │   ├── RFPmaxReductionConfig.nvm
+│   │   │   └── TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki
+│   │   ├── nvm_uncheck_file.cfg
+│   │   ├── ramdump_loglist
+│   │   └── ttc
+│   │       ├── AcStatOption.nvm
+│   │       ├── afcDacTable.nvm
+│   │       ├── audio_avc.nvm
+│   │       ├── audio_config.nvm
+│   │       ├── audio_ctm.nvm
+│   │       ├── audio_diamond.nvm
+│   │       ├── audio_DualMic.nvm
+│   │       ├── audio_ec.nvm
+│   │       ├── audio_eq.nvm
+│   │       ├── audio_gain_calibration.xml
+│   │       ├── audio_gssp_config.nvm
+│   │       ├── audio_HLPF.nvm
+│   │       ├── audio_misc.nvm
+│   │       ├── audio_MSAmain.nvm
+│   │       ├── audio_ns.nvm
+│   │       ├── COMCfg.csv
+│   │       ├── COMCfg.csv.3g
+│   │       ├── COMCfg.csv.gsm
+│   │       ├── DipChannelChange.nvm
+│   │       ├── GsmCalData.nvm
+│   │       ├── LyraConfig.nvm
+│   │       ├── platform.nvm
+│   │       ├── TDRF_Config.nvm
+│   │       ├── TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki
+│   │       └── TTPCom_NRAM2_BAND_OPTIONS.GKI
+│   ├── updatecmds
+│   │   └── google_generic_update.txt
+│   ├── videotelephony
+│   │   ├── mask.conf
+│   │   └── vcImages
+│   │       ├── categories
+│   │       │   ├── animal
+│   │       │   │   ├── animal_1.yuv420p
+│   │       │   │   ├── animal_2.yuv420p
+│   │       │   │   └── animal_3.yuv420p
+│   │       │   ├── glasses
+│   │       │   │   ├── glasses_1.yuv420p
+│   │       │   │   ├── glasses_2.yuv420p
+│   │       │   │   └── glasses_3.yuv420p
+│   │       │   ├── hat
+│   │       │   │   ├── hat_1.yuv420p
+│   │       │   │   ├── hat_2.yuv420p
+│   │       │   │   └── hat_3.yuv420p
+│   │       │   ├── muscth
+│   │       │   │   ├── muscth_1.yuv420p
+│   │       │   │   ├── muscth_2.yuv420p
+│   │       │   │   └── muscth_3.yuv420p
+│   │       │   └── party
+│   │       │       ├── party_1.yuv420p
+│   │       │       ├── party_2.yuv420p
+│   │       │       └── party_3.yuv420p
+│   │       └── expression
+│   │           ├── angry
+│   │           │   └── angry.yuv420p
+│   │           ├── auto_angry
+│   │           │   └── auto_angry.yuv420p
+│   │           ├── auto_happy
+│   │           │   └── auto_happy.yuv420p
+│   │           ├── auto_surprise
+│   │           │   └── auto_surprise.yuv420p
+│   │           ├── happy
+│   │           │   └── happy.yuv420p
+│   │           ├── sad
+│   │           │   └── sad.yuv420p
+│   │           ├── shame
+│   │           │   └── shame.yuv420p
+│   │           └── surprise
+│   │               └── surprise.yuv420p
+│   ├── vold.fstab
+│   ├── Volume.db
+│   └── wifi
+│       └── wpa_supplicant.conf
+├── lib
+│   ├── bluez-plugin
+│   │   ├── audio.so
+│   │   ├── bluetooth-health.so
+│   │   ├── input.so
+│   │   └── network.so
+│   ├── drm
+│   │   ├── libdivxplugin.so
+│   │   ├── libdrmwvmplugin.so
+│   │   ├── libomaplugin.so
+│   │   └── libplayreadyplugin.so
+│   ├── egl
+│   │   ├── egl.cfg
+│   │   ├── libEGL_MRVL.so
+│   │   ├── libGLES_android.so
+│   │   ├── libGLESv1_CM_MRVL.so
+│   │   └── libGLESv2_MRVL.so
+│   ├── hw
+│   │   ├── audio.a2dp.default.so
+│   │   ├── audio_path.adda.mrvl.so
+│   │   ├── audio_path.fm.mrvl.so
+│   │   ├── audio_path.hifi.mrvl.so
+│   │   ├── audio_path.vc.mrvl.so
+│   │   ├── audio_path.voip.mrvl.so
+│   │   ├── audio_path.vt.mrvl.so
+│   │   ├── audio_policy.default.so
+│   │   ├── audio_policy.mrvl.so
+│   │   ├── audio.primary.default.so
+│   │   ├── audio.primary.mrvl.so
+│   │   ├── camera.mrvl.so
+│   │   ├── csr.cpd.so
+│   │   ├── gps.default.so
+│   │   ├── gralloc.default.so
+│   │   ├── gralloc.mrvl.so
+│   │   ├── hwcomposer.mrvl.so
+│   │   ├── keystore.default.so
+│   │   ├── lights.mrvl.so
+│   │   ├── local_time.default.so
+│   │   ├── nfc.pxa988.so
+│   │   ├── power.default.so
+│   │   └── sensors.mrvl.so
+│   ├── libaah_rtp.so
+│   ├── libacm.so
+│   ├── libacoustic.so
+│   ├── libAMSWiFiLibs-1.0.5.so
+│   ├── libAndroidEvent.so
+│   ├── libandroidfw.so
+│   ├── libandroid_runtime.so
+│   ├── libandroid_servers.so
+│   ├── libandroid.so
+│   ├── libAppDataSearch.so
+│   ├── libarccamera.so
+│   ├── libarcsoft_blink_detection.so
+│   ├── libarcsoft_detection_base.so
+│   ├── libarcsoft_face_tracking.so
+│   ├── libarcsoft_smile_detection.so
+│   ├── libasound.so
+│   ├── libAtomJPEG.so
+│   ├── libaudiodebugtool.so
+│   ├── libaudioeffect_jni.so
+│   ├── libaudioflinger.so
+│   ├── libaudiosa.so
+│   ├── libaudioutils.so
+│   ├── libbcc.so
+│   ├── libbcc.so.sha1
+│   ├── libbcinfo.so
+│   ├── libbinder.so
+│   ├── libbluedroid.so
+│   ├── libbluetoothd.so
+│   ├── libbluetooth.so
+│   ├── libbt-aptx-4.0.3.so
+│   ├── libbtio.so
+│   ├── libbz.so
+│   ├── libcamera_client.so
+│   ├── libcameraengine.so
+│   ├── libcameraservice.so
+│   ├── libceu.so
+│   ├── libChatOnAMSImageFilterLibs-1.0.2.so
+│   ├── libchromeview.so
+│   ├── libchromium_net.so
+│   ├── libclcore.bc
+│   ├── libclcore_neon.bc
+│   ├── libcoda7542hal.so
+│   ├── libcoda7542.so
+│   ├── libcodecaacdec.so
+│   ├── libcodecaacenc.so
+│   ├── libcodecamrnbdec.so
+│   ├── libcodecamrnbenc.so
+│   ├── libcodecamrwbdec.so
+│   ├── libcodecamrwbenc.so
+│   ├── libcodeccoda7542dec.so
+│   ├── libcodeccoda7542enc.so
+│   ├── libcodech263dec.so
+│   ├── libcodech263enc.so
+│   ├── libcodech264dec.so
+│   ├── libcodech264enc.so
+│   ├── libcodecjpegdec.so
+│   ├── libcodecjpegenc.so
+│   ├── libcodecmp3dec.so
+│   ├── libcodecmpeg2dec.so
+│   ├── libcodecmpeg4dec.so
+│   ├── libcodecmpeg4enc.so
+│   ├── libcodecpngdec.so
+│   ├── libcodecwmadec.so
+│   ├── libcodecwmvdec.so
+│   ├── libcommon_time_client.so
+│   ├── libcontrolcsc.so
+│   ├── libcordon.so
+│   ├── libcorkscrew.so
+│   ├── libcpufreqinterface.so
+│   ├── libcpufreq.so
+│   ├── libcrypto.so
+│   ├── libc.so
+│   ├── libctest.so
+│   ├── libcutils.so
+│   ├── libdbus.so
+│   ├── libdefcontainer_jni.so
+│   ├── libdirencryption.so
+│   ├── libdiskconfig.so
+│   ├── libdivxdrm.so
+│   ├── libdl.so
+│   ├── libdmcFaceEngine3GVT.so
+│   ├── libdmcFaceEngine.so
+│   ├── libDocumentClassifier.so
+│   ├── libdprw.so
+│   ├── libdrawglfunction.so
+│   ├── libdrm1_jni.so
+│   ├── libdrm1.so
+│   ├── libdrmdecrypt.so
+│   ├── libdrmframework_jni.so
+│   ├── libdrmframework.so
+│   ├── libdvm.so
+│   ├── libedmnativehelperservice.so
+│   ├── libedmnativehelper.so
+│   ├── libeffects.so
+│   ├── libEGL.so
+│   ├── libemoji.so
+│   ├── libETC1.so
+│   ├── libexfat_utils.so
+│   ├── libexifa.so
+│   ├── libexif_jni.so
+│   ├── libexif.so
+│   ├── libexpat.so
+│   ├── libext2_blkid.so
+│   ├── libext2_com_err.so
+│   ├── libext2_e2p.so
+│   ├── libext2fs.so
+│   ├── libext2_profile.so
+│   ├── libext2_quota.so
+│   ├── libext2_uuid.so
+│   ├── libext4_utils.so
+│   ├── libfacelock_jni.so
+│   ├── libFaceRecognition_JNI.so
+│   ├── libfacerecognition.so
+│   ├── libFFTEm.so
+│   ├── libFileMonitorService.so
+│   ├── libfilterfw.so
+│   ├── libfilterpack_facedetect.so
+│   ├── libfilterpack_imageproc.so
+│   ├── libfmradio_jni.so
+│   ├── libfrsdk.so
+│   ├── libgabi++.so
+│   ├── libGAL.so
+│   ├── libgames_rtmp_jni.so
+│   ├── libgccdemangle.so
+│   ├── libgcu.so
+│   ├── libGLES_trace.so
+│   ├── libGLESv1_CM.so
+│   ├── libGLESv2SC.so
+│   ├── libGLESv2.so
+│   ├── libglib.so
+│   ├── libgnustl_shared.so
+│   ├── libgoggles_clientvision.so
+│   ├── libgoogle_recognizer_jni_l.so
+│   ├── libgpucsc.so
+│   ├── lib_gsd5t_mode7.so
+│   ├── libgui.so
+│   ├── libhardware_legacy.so
+│   ├── libhardware.so
+│   ├── libharfbuzz.so
+│   ├── libHSV.so
+│   ├── libHWComposerGC.so
+│   ├── libhwui.so
+│   ├── libicui18n.so
+│   ├── libicuuc.so
+│   ├── libINDIAgent.so
+│   ├── libINDIServer.so
+│   ├── libinput.so
+│   ├── libionhelper.so
+│   ├── libippimgp.so
+│   ├── libippsp.so
+│   ├── libippvp.so
+│   ├── libiprouteutil.so
+│   ├── libjavacore.so
+│   ├── libjni_emailencryption.so
+│   ├── libjni_emailspellcheck.so
+│   ├── libjnigraphics.so
+│   ├── libjni_mosaic.so
+│   ├── libjni_pinyinime.so
+│   ├── libjpega.so
+│   ├── libjpeglib.so
+│   ├── libjpeg.so
+│   ├── libkeystore_client.so
+│   ├── libkeyutils.so
+│   ├── libKiesDataRouter.so
+│   ├── liblifevibes_mediashare_hw_jni.so
+│   ├── liblog.so
+│   ├── liblvvefs.so
+│   ├── liblvvewrapper.so
+│   ├── libmagnet.so
+│   ├── libmarvell-nvaccessor.so
+│   ├── libmarvell-ril.so
+│   ├── libMarvellWireless.so
+│   ├── libmdnssd.so
+│   ├── libmedia_jni.so
+│   ├── libmedia_native.so
+│   ├── libmediaplayerservice.so
+│   ├── libmedia.so
+│   ├── libmiscgen.so
+│   ├── libMrvlOmx.so
+│   ├── libm.so
+│   ├── libmtelif.so
+│   ├── libmtp_samsung_jni.so
+│   ├── libmtp_samsung.so
+│   ├── libmtp.so
+│   ├── libMusicSquareLib.so
+│   ├── libnativehelper.so
+│   ├── libnetlink.so
+│   ├── libnetutils.so
+│   ├── libNetworkInfo.so
+│   ├── libnfc_ndef.so
+│   ├── libNode_Interface.so
+│   ├── libNodeJS_Android.so
+│   ├── libnvaccessor.so
+│   ├── libomadrm.so
+│   ├── libOpenMAXAL.so
+│   ├── libOpenSLES.so
+│   ├── libOrgan.so
+│   ├── libPanoraMax3.so
+│   ├── libparseTim.so
+│   ├── libpatts_engine_jni_api.so
+│   ├── libphotoeditorEffect.so
+│   ├── libphycontmem.so
+│   ├── libpixelflinger.so
+│   ├── libplayready_v2.0.so
+│   ├── libplus_jni_v8.so
+│   ├── libpmemhelper.so
+│   ├── libpolarisofficedump.so
+│   ├── libpolarisoffice_tablet.so
+│   ├── libpowermanager.so
+│   ├── libPowerSetting.so
+│   ├── libpower.so
+│   ├── libppeffectLH.so
+│   ├── libQmageDecoder.so
+│   ├── libquramimagecodec.so
+│   ├── libreference-ril.so
+│   ├── libremotedesktop_client.so
+│   ├── libremotedesktopservice.so
+│   ├── libril.so
+│   ├── librs.antblur_constant.so
+│   ├── librs.antblur_drama.so
+│   ├── librs.antblur.so
+│   ├── librs.drama.so
+│   ├── librs.film_base.so
+│   ├── librs.fixedframe.so
+│   ├── librs.grey.so
+│   ├── librs.image_wrapper.so
+│   ├── librs_jni.so
+│   ├── librsjni.so
+│   ├── librs.retrolux.so
+│   ├── libRS.so
+│   ├── libRSSupport.so
+│   ├── librtp_jni.so
+│   ├── libsac3d.so
+│   ├── lib_SA_GoogleFX_ver119d.so
+│   ├── libsAMRNB.so
+│   ├── libsAMRWB.so
+│   ├── libSamsungAnimation.so
+│   ├── libSamsungPDLComposer_MD.so
+│   ├── libsamsungpowersound.so
+│   ├── libsamsungRecord.so
+│   ├── lib_SamsungRec_V01006.so
+│   ├── lib_Samsung_Resampler.so
+│   ├── lib_Samsung_SB_AM_for_ICS_v04004.so
+│   ├── libsamsungSoundbooster.so
+│   ├── libsamsungtts.so
+│   ├── libSamsungVoiceEngine.so
+│   ├── libsavsac.so
+│   ├── libsavscmn.so
+│   ├── libsavsff.so
+│   ├── libsavsmeta.so
+│   ├── libsavsvc.so
+│   ├── libSDRMInvLH.so
+│   ├── libseccameracore.so
+│   ├── libseccamera_jni.so
+│   ├── libsec_cryptomnt.so
+│   ├── libsec_devenc.so
+│   ├── libsec_ecryptfs.so
+│   ├── libsecface.so
+│   ├── libsecfips.so
+│   ├── libsecjpegarcsoft.so
+│   ├── libsecjpegboard.so
+│   ├── libsecjpeginterface.so
+│   ├── libsec_km.so
+│   ├── libsecmediarecorder_jni.so
+│   ├── libsecnativefeature.so
+│   ├── libsec.so
+│   ├── libSecurity.so
+│   ├── libsensorservice.so
+│   ├── libserialport.so
+│   ├── libsfextaac.so
+│   ├── libsfextavi.so
+│   ├── libsfextcmn.so
+│   ├── libsfextcp.so
+│   ├── libsfextflac.so
+│   ├── libsfextflv.so
+│   ├── libsfextmkv.so
+│   ├── libsfextrmf.so
+│   ├── libsfextwmf.so
+│   ├── libsig.so
+│   ├── libsimal.so
+│   ├── libskia.so
+│   ├── libSmallAgentServer.so
+│   ├── libSmartEduDrmCoreLH.so
+│   ├── libsocketsvr.so
+│   ├── libsomxaacd.so
+│   ├── libsomxaace.so
+│   ├── libsomxac3d.so
+│   ├── libsomxamrd.so
+│   ├── libsomxcmn.so
+│   ├── libsomxcore.so
+│   ├── libsomxflacd.so
+│   ├── libsomxmp3d.so
+│   ├── libsomxmp43d.so
+│   ├── libsomxrad.so
+│   ├── libsomxrvd.so
+│   ├── libsomxsr263d.so
+│   ├── libsomxwmad.so
+│   ├── libsomxwmv7d.so
+│   ├── libsomxwmv8d.so
+│   ├── libsonivox.so
+│   ├── libsoundalive.so
+│   ├── lib_SoundAlive_V01013h.so
+│   ├── libSoundAlive_VSP_ver312a.so
+│   ├── libsoundpool.so
+│   ├── libsoundspeed.so
+│   ├── libspeexresampler.so
+│   ├── libspeexwrapper.so
+│   ├── libSPenGesture.so
+│   ├── libSPenSDKImageFilterLibs.so
+│   ├── libsqlite_jni.so
+│   ├── libsqlite.so
+│   ├── libSR_AudioIn.so
+│   ├── libsraxxd.so
+│   ├── libsrvxxd.so
+│   ├── libssl.so
+│   ├── libstagefright_amrnb_common.so
+│   ├── libstagefright_avc_common.so
+│   ├── libstagefright_enc_common.so
+│   ├── libstagefright_foundation.so
+│   ├── libstagefrighthw.so
+│   ├── libstagefright_omx.so
+│   ├── libstagefright.so
+│   ├── libstagefright_soft_aacdec.so
+│   ├── libstagefright_soft_aacenc.so
+│   ├── libstagefright_soft_amrdec.so
+│   ├── libstagefright_soft_amrnbenc.so
+│   ├── libstagefright_soft_amrwbenc.so
+│   ├── libstagefright_soft_flacenc.so
+│   ├── libstagefright_soft_g711dec.so
+│   ├── libstagefright_soft_h264dec.so
+│   ├── libstagefright_soft_h264enc.so
+│   ├── libstagefright_soft_mp3dec.so
+│   ├── libstagefright_soft_mpeg4dec.so
+│   ├── libstagefright_soft_mpeg4enc.so
+│   ├── libstagefright_soft_rawdec.so
+│   ├── libstagefright_soft_vorbisdec.so
+│   ├── libstagefright_soft_vpxdec.so
+│   ├── libstagefright_yuv.so
+│   ├── libstdc++.so
+│   ├── libsthmb.so
+│   ├── libstlport.so
+│   ├── libstylize3GVT.so
+│   ├── libsurfaceflinger.so
+│   ├── libsuspend.so
+│   ├── libsvoxtts.so
+│   ├── libswiftkeysdk-java.so
+│   ├── libsysfs.so
+│   ├── libsystem_server.so
+│   ├── libsysutils.so
+│   ├── libtfapps-polaris.so
+│   ├── libtflua-polaris.so
+│   ├── libthread_db.so
+│   ├── libttscompat.so
+│   ├── libttspico.so
+│   ├── libui3d-jni.so
+│   ├── libui.so
+│   ├── libusbhost.so
+│   ├── libusbsetting.so
+│   ├── libutils.so
+│   ├── libvariablespeed.so
+│   ├── libvcdecoder_jni.so
+│   ├── libvideochat_jni.so
+│   ├── libvideoeditor_core.so
+│   ├── libvideoeditor_jni.so
+│   ├── libvideoeditor_osal.so
+│   ├── libvideoeditorplayer.so
+│   ├── libvideoeditor_videofilters.so
+│   ├── libVideoHub.so
+│   ├── libvorbisidec.so
+│   ├── libvtmanager.so
+│   ├── libvtstack.so
+│   ├── libvwenginetab.so
+│   ├── libWakeUpSensory.so
+│   ├── libWaterRipple.so
+│   ├── libwebcore.so
+│   ├── libwebp_android.so
+│   ├── libwebrtc_audio_preprocessing.so
+│   ├── libwilhelm.so
+│   ├── libwnndict.so
+│   ├── libWnnEngDic.so
+│   ├── libWnnJpnDic.so
+│   ├── libwpa_client.so
+│   ├── libwtpsp.so
+│   ├── libwtpsp_ss.so
+│   ├── libwvdrm_L3.so
+│   ├── libwvm.so
+│   ├── libWVphoneAPI.so
+│   ├── libWVStreamControlAPI_L3.so
+│   ├── libXIVSamsungGalleryCoder.so
+│   ├── libxml2.so
+│   ├── libz.so
+│   ├── modules
+│   │   ├── bt8787.ko
+│   │   ├── cci_datastub.ko
+│   │   ├── ccinetdev.ko
+│   │   ├── cidatattydev.ko
+│   │   ├── citty.ko
+│   │   ├── cploaddev.ko
+│   │   ├── diag.ko
+│   │   ├── exfat_core.ko
+│   │   ├── exfat_fs.ko
+│   │   ├── galcore.ko
+│   │   ├── geu.ko
+│   │   ├── gs_diag.ko
+│   │   ├── gs_modem.ko
+│   │   ├── hwmap.ko
+│   │   ├── mlan.ko
+│   │   ├── msocketk.ko
+│   │   ├── physrw.ko
+│   │   ├── sd8787.ko
+│   │   └── seh.ko
+│   ├── PowerDaemon
+│   │   ├── delegate_cpu.so
+│   │   ├── delegate_ddr.so
+│   │   ├── delegate_gpu.so
+│   │   ├── delegate_shcmd.so
+│   │   ├── plugin_android.so
+│   │   ├── plugin_camera.so
+│   │   ├── plugin_coda.so
+│   │   ├── plugin_input.so
+│   │   └── plugin_thermal.so
+│   ├── soundfx
+│   │   ├── libaudiopreprocessing.so
+│   │   ├── libbundlewrapper.so
+│   │   ├── libdownmix.so
+│   │   ├── libmrvlpreprocessing.so
+│   │   ├── libreverbwrapper.so
+│   │   └── libvisualizer.so
+│   └── ssl
+│       └── engines
+│           └── libkeystore.so
+├── README
+├── tree.txt
+├── usr
+│   ├── icu
+│   │   └── icudt48l.dat
+│   ├── idc
+│   │   ├── elan-ts.idc
+│   │   ├── ft5306-ts.idc
+│   │   ├── qwerty2.idc
+│   │   ├── qwerty.idc
+│   │   └── vnc-ts.idc
+│   ├── keychars
+│   │   ├── Generic.kcm
+│   │   ├── pxa27x-keypad.kcm
+│   │   ├── qwerty2.kcm
+│   │   ├── qwerty.kcm
+│   │   ├── Virtual.kcm
+│   │   └── vnc-kbd.kcm
+│   ├── keylayout
+│   │   ├── 88pm800_hook_vol.kl
+│   │   ├── 88pm80x_on.kl
+│   │   ├── AVRCP.kl
+│   │   ├── Generic.kl
+│   │   ├── gpio-keys.kl
+│   │   ├── pxa27x-keypad.kl
+│   │   ├── qwerty.kl
+│   │   ├── sec_touchscreen.kl
+│   │   ├── Vendor_045e_Product_028e.kl
+│   │   ├── Vendor_046d_Product_c216.kl
+│   │   ├── Vendor_046d_Product_c294.kl
+│   │   ├── Vendor_046d_Product_c299.kl
+│   │   ├── Vendor_046d_Product_c532.kl
+│   │   ├── Vendor_04e8_Product_7021.kl
+│   │   ├── Vendor_054c_Product_0268.kl
+│   │   ├── Vendor_05ac_Product_0239.kl
+│   │   ├── Vendor_22b8_Product_093d.kl
+│   │   └── vnc-kbd.kl
+│   ├── lib
+│   │   └── alsa-lib
+│   │       ├── libasound_module_ctl_codec.so
+│   │       ├── libasound_module_ctl_phone.so
+│   │       └── libasound_module_pcm_phone.so
+│   ├── share
+│   │   ├── alsa
+│   │   │   ├── alsa.conf
+│   │   │   ├── cards
+│   │   │   │   └── aliases.conf
+│   │   │   └── pcm
+│   │   │       ├── centor_lfe.conf
+│   │   │       ├── default.conf
+│   │   │       ├── dmix.conf
+│   │   │       ├── dpl.conf
+│   │   │       ├── dsnoop.conf
+│   │   │       ├── front.conf
+│   │   │       ├── iec958.conf
+│   │   │       ├── modem.conf
+│   │   │       ├── rear.conf
+│   │   │       ├── side.conf
+│   │   │       ├── surround40.conf
+│   │   │       ├── surround41.conf
+│   │   │       ├── surround50.conf
+│   │   │       ├── surround51.conf
+│   │   │       └── surround71.conf
+│   │   ├── bmd
+│   │   │   ├── RFFspeed_501.bmd
+│   │   │   └── RFFstd_501.bmd
+│   │   └── zoneinfo
+│   │       ├── zoneinfo.dat
+│   │       ├── zoneinfo.idx
+│   │       └── zoneinfo.version
+│   └── srec
+│       └── en-US
+│           ├── acoustic_model
+│           ├── c_fst
+│           ├── clg
+│           ├── compile_grammar.config
+│           ├── contacts.abnf
+│           ├── dict
+│           ├── dictation.config
+│           ├── embed_phone_nn_model
+│           ├── embed_phone_nn_state_sym
+│           ├── endpointer_dictation.config
+│           ├── endpointer_voicesearch.config
+│           ├── ep_acoustic_model
+│           ├── g2p_fst
+│           ├── google_hotword_clg
+│           ├── google_hotword.config
+│           ├── google_hotword_logistic
+│           ├── grammar.config
+│           ├── hmmsyms
+│           ├── hotword_symbols
+│           ├── lintrans_model
+│           ├── metadata
+│           ├── normalizer
+│           ├── norm_fst
+│           ├── offensive_word_normalizer
+│           ├── phonelist
+│           ├── rescoring_lm
+│           └── symbols
+├── vendor
+│   ├── firmware
+│   │   ├── libpn547_fw_eng.so
+│   │   ├── libpn547_fw_platform.so
+│   │   └── libpn547_fw.so
+│   └── pittpatt
+│       └── models
+│           ├── detection
+│           │   ├── multi_pose_face_landmark_detectors.7
+│           │   │   ├── left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32
+│           │   │   │   └── full_model.bin
+│           │   │   ├── nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32
+│           │   │   │   └── full_model.bin
+│           │   │   └── right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2
+│           │   │       └── full_model.bin
+│           │   └── yaw_roll_face_detectors.6
+│           │       ├── head-y0-yi45-p0-pi45-r0-ri30.4a-v24
+│           │       │   └── full_model.bin
+│           │       ├── head-y0-yi45-p0-pi45-rn30-ri30.5-v24
+│           │       │   └── full_model.bin
+│           │       └── head-y0-yi45-p0-pi45-rp30-ri30.5-v24
+│           │           └── full_model.bin
+│           └── recognition
+│               └── face.face.y0-y0-22-b-N
+│                   └── full_model.bin
+└── wakeupdata
+    ├── samsung
+    │   └── models_16k_NoE.bin
+    └── sensory
+        ├── de_galaxy_tuned_endsil_cg.raw
+        ├── en_gb_hg_tuned1_endsil_cg.raw
+        ├── en_us_hg_tuned3_endsil_cg.raw
+        ├── es_galaxy_endsil_cg.raw
+        ├── fr_galaxy_tuned8_endsil_cg.raw
+        ├── it_galaxy_tuned_endsil_cg.raw
+        ├── ko_hi_galaxy_endsil_cg.raw
+        ├── nn_de_mfcc_16k_15_big_250_v3_0.raw
+        ├── nn_en_uk_mfcc_16k_15_big_250_v2_0.raw
+        ├── nn_en_us_mfcc_16k_15_big_250_v4_5.raw
+        ├── nn_es_mfcc_16k_15_big_250_v1_1.raw
+        ├── nn_fr_mfcc_16k_15_big_250_v2_2.raw
+        ├── nn_it_mfcc_16k_15_big_250_v3_2.raw
+        └── nn_ko_mfcc_16k_15_big_250_v2_1.raw
+
+82 directories, 1066 files
